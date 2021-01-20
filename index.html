@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pošli dopis</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+
+    <!-- TODO (mc): Replace with minified production version. -->
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+
+<body>
+    <div id="app">
+        <section class="hero is-medium is-primary is-bold">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title is-1">
+                        Pošli dopis
+                    </h1>
+                    <p class="subtitle is-3">
+                        Zlepši den nějakému zdravotníkovi
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <p class="block">
+                    Sestřičky, záchranáři, i doktoři… všichni už jsou z dlouhého vypětí sil hodně unavení. A to nejenom
+                    fyzicky (časté, dlouhé směny v celotělových oblecích), ale i psychicky (nevidí konec, dlouhodobý
+                    vysoký výkon, přicházejí o čas s rodinou).
+                </p>
+                <p class="block">
+                    Fyzicky jim pomůžeme, když zůstaneme doma a budeme si mýt ruce… ale proč bychom jim nemohli pomoci i
+                    psychicky? <strong>Napište jim dopisem vlídná slova podpory, díků a přibalte nějaké ty bonbóny a
+                        čokoládu.</strong> Určitě je to potěší a zvedne jim to náladu v těžké době.
+                </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2 class="title">Jak na to?</h2>
+
+                <h3 class="title is-5">1. Vyberte si nemocnici</h3>
+                <p class="block">
+                    Adresa nemocnice je veřejně přístupná. Vzali jsme adresy malých nemocnic z regionů s velkým počtem
+                    nakaženým a připravili je pro vás. Vylosujte si v našem losovadle, které z nich napíšete.
+                </p>
+
+                <button class="button block">
+                    Vybrat náhodnou nemocnici
+                </button>
+
+                <h3 class="title is-5">2. Napište dopis</h3>
+                <p class="block">
+                    Stačí si vzít papír a nějaké pisadlo. Slušně pozdravte, představte se a napište proč píšete. Přesně
+                    jako v češtině. Třeba takto:
+                </p>
+                <article class="message is-primary">
+                    <div class="message-body">
+                        <p class="block">
+                            Vážené sestřičky/ Vážení doktoři/záchranáři,
+                        </p>
+                        <p class="block">
+                            jmenuji se Franta Pepa Jednička a jsem císař Rakouska-Uherska. Ve volném čase se věnuji
+                            lovu.
+                        </p>
+                        <p class="block">
+                            Píšu, protože bych Vám chtěl poděkovat za Vaši skvělou práci, odhodlanost a výdrž. Díky, že
+                            nám
+                            zachraňujete životy a že Vám na nás záleží. Díky, že jste.
+                        </p>
+                        <p class="block">
+                            Pro alespoň drobné zlepšení nálady přikládám k dopisu obrázky od svých dětí a malinkou
+                            čokoládu.
+                        </p>
+                    </div>
+                </article>
+
+                <h3 class="title is-5">3. Přibalte nějakou drobnost</h3>
+                <p class="block">
+                    Přibalte do dopisu (nebo drobného balíčku) nějakou věc, která blbinku, která by je mohla potěšit.
+                    Obrázky od dětí, drobná čokoláda, balené bonbóny, vtipy, origami skládačky… co vás napadne.
+                </p>
+
+                <h3 class="title is-5">4. Pošlete to!</h3>
+                <p class="block">
+                    Dopis i drobnost dejte do obálky. Ty jdou koupit na poště, v papírnictvích (od 19.&nbsp;1. jsou
+                    otevřené), nebo klidně <a href="https://www.wikihow.cz/Jak-vyrobit-ob%C3%A1lku"
+                        target="_blank">vyrobit</a>.
+                </p>
+                <p class="block">
+                    Dopis můžete poslat na poště nebo vhozením do oranžové schránky. Do 50&nbsp;g stačí jedna známka,
+                    stojí 19&nbsp;Kč (známky lze zakoupit na poště nebo v trafikách)
+                </p>
+                <p class="block">
+                    Balík můžete poslat na poště, pokud ho odešlete jako „ekonomické psaní“ (a nebude tlustší jak
+                    2&nbsp;cm), bude to stát do kila 33&nbsp;Kč. Přesný ceník <a
+                        href="https://www.ceskaposta.cz/documents/10180/282441/kompletni_cenik.pdf/528acb00-cbab-450e-8a94-90add1cf405b"
+                        target="_blank">tady</a>.
+                </p>
+                <p class="block">
+                    Balík můžete také poslat přímo z domova pomocí služby odvoz zboží v Balíku online.
+                </p>
+                <p class="block">
+                    Pokud se rozhodnete poslat balík (krabička, cca 80&ndash;100 Kč), doporučujeme vše vyplnit raději <a
+                        href="https://www.postaonline.cz/odvozy/mojeodvozy" target="_blank">předem online</a>.
+                    <strong>Vyhnete se tak čekání na poště &ndash; obslouží vás rovnou.</strong>
+                </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2 class="title">Které nemocnici napsat?</h2>
+
+                <button class="button is-primary is-large">
+                    Vybrat náhodnou nemocnici
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <script src="./main.js"></script>
+
+    <script>
+        const mountedApp = app.mount('#app')
+    </script>
+</body>
+
+</html>
