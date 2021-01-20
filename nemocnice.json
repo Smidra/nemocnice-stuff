@@ -1,0 +1,226 @@
+[
+  {
+    "name": "jméno_nemocnice",
+    "web": "web_nemocnice",
+    "region": "Královehradecký",
+    "note": "",
+    "adresa": {
+      "street": "ulice",
+      "number": "999",
+      "postcode": 99999,
+      "city": "mesto"
+    },
+    "people": [
+      {
+        "name": "",
+        "occupation": "main_sister"
+      },
+      {
+        "name": "",
+        "occupation": "main_doctor"
+      }
+    ]
+  },
+  {
+    "name": "Domažlická nemocnice, a.s.",
+    "web": "https://domazlice.nemocnicepk.cz/aro-jip/",
+    "region": "Plzeňský",
+    "note": "",
+    "adresa": {
+      "street": "Kozinova",
+      "number": "292",
+      "postcode": 34422,
+      "city": "Domažlice"
+    },
+    "people": [
+      {
+        "name": "Bc. Galina Holomojová",
+        "occupation": "main_sister"
+      },
+      {
+        "name": "MUDr. Vojtěch Hynek",
+        "occupation": "main_doctor"
+      }
+    ]
+  },
+  {
+    "name": "Nemocnice Cheb",
+    "web": "https://nemcheb.cz/oddeleni-anestezie-a-resuscitacni-pece",
+    "region": "Karlovarský",
+    "note": "Možno poděkovat přímo na stránkách nemocnice.",
+    "adresa": {
+      "street": "K Nemocnici",
+      "number": "1204/17",
+      "postcode": 35002,
+      "city": "Cheb"
+    },
+    "people": [
+      {
+        "name": "",
+        "occupation": "main_sister"
+      },
+      {
+        "name": "",
+        "occupation": "main_doctor"
+      }
+    ]
+  },
+  {
+    "name": "Nemocnice Sokolov",
+    "web": "http://www.nemosok.cz/anesteziologicke-oddeleni/",
+    "region": "Karlovarský",
+    "note": "Všechen personál na http://www.nemosok.cz/anesteziologicke-oddeleni/",
+    "adresa": {
+      "street": "Slovenská",
+      "number": "545",
+      "postcode": 35601,
+      "city": "Sokolov"
+    },
+    "people": [
+      {
+        "name": "Kalendová Martina",
+        "occupation": "main_sister"
+      },
+      {
+        "name": "Stankovič Martin",
+        "occupation": "main_doctor"
+      }
+    ]
+  },
+  {
+    "name": "Masarykova městská nemocnice v Jilemnici",
+    "web": "https://www.nemjil.cz/jilemnice/oddeleni/luzkova-oddeleni/aro/",
+    "region": "Královehradecký",
+    "note": "",
+    "adresa": {
+      "street": "Metyšova",
+      "number": "465",
+      "postcode": 51401,
+      "city": "Jilemnice"
+    },
+    "people": [
+      {
+        "name": "Pavla Varvařovská",
+        "occupation": "main_sister"
+      },
+      {
+        "name": "MUDr. Gabriela Pohořalá",
+        "occupation": "main_doctor"
+      }
+    ]
+  },
+  {
+    "name": "Oblastní nemocnice Jičín a.s.",
+    "web": "https://www.nemjc.cz/anestez-resuscitacni-oddeleni-aro",
+    "region": "Královehradecký",
+    "note": "",
+    "adresa": {
+      "street": "Bolzanova",
+      "number": "512",
+      "postcode": 50601,
+      "city": "Jičín"
+    },
+    "people": [
+      {
+        "name": "Mgr. Radka Králová",
+        "occupation": "main_sister"
+      },
+      {
+        "name": "MUDr. Radek Majerčin",
+        "occupation": "main_doctor"
+      }
+    ]
+  },
+  {
+    "name": "Oblastní nemocnice Trutnov a.s.",
+    "web": "https://www.nemtru.cz/anesteziologicko-resuscitacni-oddeleni",
+    "region": "Královehradecký",
+    "note": "",
+    "adresa": {
+      "street": "Maxima Gorkého",
+      "number": "77",
+      "postcode": 54101,
+      "city": "Trutnov"
+    },
+    "people": [
+      {
+        "name": "Bc. Tereza Dudáčková",
+        "occupation": "main_sister"
+      },
+      {
+        "name": "Vlasta Bílková",
+        "occupation": "main_sister"
+      },
+      {
+        "name": "MUDr. Martin Šimák",
+        "occupation": "main_doctor"
+      }
+    ]
+  },
+  {
+    "name": "Oblastní nemocnice Náchod a.s.",
+    "web": "https://www.nemocnicenachod.cz/lokality-oddeleni/nemocnice-nachod/anesteziologicko-resuscitacni-oddeleni-aro",
+    "region": "Královehradecký",
+    "note": "",
+    "adresa": {
+      "street": "Purkyňova",
+      "number": "446",
+      "postcode": 54701,
+      "city": "Náchod"
+    },
+    "people": [
+      {
+        "name": "Mgr. Šárka Štěpánková",
+        "occupation": "main_sister"
+      },
+      {
+        "name": "MUDr. Petr Štěpánek",
+        "occupation": "main_doctor"
+      }
+    ]
+  },
+  {
+    "name": "Nemocnice Rychnov nad Kněžnou",
+    "web": "https://www.nemocnicenachod.cz/lokality-oddeleni/nemocnice-rychnov-nad-kneznou/anesteziologicko-resuscitacni-oddeleni-aro",
+    "region": "Královehradecký",
+    "note": "",
+    "adresa": {
+      "street": "Jiráskova",
+      "number": "506",
+      "postcode": 51623,
+      "city": "Rychnov nad Kněžnou"
+    },
+    "people": [
+      {
+        "name": "Ladislav Pokorný, DiS.",
+        "occupation": "main_sister"
+      },
+      {
+        "name": "MUDr. Marcel Maršík",
+        "occupation": "main_doctor"
+      }
+    ]
+  },
+    {
+    "name": "jméno_nemocnice",
+    "web": "web_nemocnice",
+    "region": "Královehradecký",
+    "note": "",
+    "adresa": {
+      "street": "ulice",
+      "number": "999",
+      "postcode": 99999,
+      "city": "mesto"
+    },
+    "people": [
+      {
+        "name": "",
+        "occupation": "main_sister"
+      },
+      {
+        "name": "",
+        "occupation": "main_doctor"
+      }
+    ]
+  }
+]
