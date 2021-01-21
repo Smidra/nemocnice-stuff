@@ -8,6 +8,7 @@
     <title>Pošli dopis</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="./style.css">
 
     <!-- TODO (mc): Replace with minified production version. -->
     <script src="https://unpkg.com/vue@next"></script>
@@ -15,9 +16,12 @@
 
 <body>
     <div id="app">
-        <section class="hero is-medium is-primary is-bold">
+        <section class="hero is-medium is-info is-bold">
             <div class="hero-body">
-                <div class="container">
+                <div class="container has-text-centered">
+                    <figure class="image is-128x128 is-inline-block block">
+                        <img src="./stamp.svg" alt="Známka">
+                    </figure>
                     <h1 class="title is-1">
                         Pošli dopis
                     </h1>
@@ -28,106 +32,188 @@
             </div>
         </section>
 
-        <section class="section">
+        <section class="section is-size-5">
             <div class="container">
-                <p class="block">
-                    Sestřičky, záchranáři, i doktoři… všichni už jsou z dlouhého vypětí sil hodně unavení. A to nejenom
-                    fyzicky (časté, dlouhé směny v celotělových oblecích), ale i psychicky (nevidí konec, dlouhodobý
-                    vysoký výkon, přicházejí o čas s rodinou).
-                </p>
-                <p class="block">
-                    Fyzicky jim pomůžeme, když zůstaneme doma a budeme si mýt ruce… ale proč bychom jim nemohli pomoci i
-                    psychicky? <strong>Napište jim dopisem vlídná slova podpory, díků a přibalte nějaké ty bonbóny a
-                        čokoládu.</strong> Určitě je to potěší a zvedne jim to náladu v těžké době.
-                </p>
-            </div>
-        </section>
-
-        <section class="section">
-            <div class="container">
-                <h2 class="title">Jak na to?</h2>
-
-                <h3 class="title is-5">1. Vyberte si nemocnici</h3>
-                <p class="block">
-                    Adresa nemocnice je veřejně přístupná. Vzali jsme adresy malých nemocnic z regionů s velkým počtem
-                    nakaženým a připravili je pro vás. Vylosujte si v našem losovadle, které z nich napíšete.
-                </p>
-
-                <button class="button block">
-                    Vybrat náhodnou nemocnici
-                </button>
-
-                <h3 class="title is-5">2. Napište dopis</h3>
-                <p class="block">
-                    Stačí si vzít papír a nějaké pisadlo. Slušně pozdravte, představte se a napište proč píšete. Přesně
-                    jako v češtině. Třeba takto:
-                </p>
-                <article class="message is-primary">
-                    <div class="message-body">
+                <div class="columns is-centered">
+                    <div class="column is-half-fullhd">
                         <p class="block">
-                            Vážení zdravotníci,
+                            Sestřičky, záchranáři, i doktoři… všichni už jsou z dlouhého vypětí sil hodně unavení. A to
+                            nejenom
+                            fyzicky (časté, dlouhé směny v celotělových oblecích), ale i psychicky (nevidí konec,
+                            dlouhodobý
+                            vysoký výkon, přicházejí o čas s rodinou).
                         </p>
                         <p class="block">
-                            jmenuji se Franta Pepa Jednička a jsem císař Rakouska-Uherska. Ve volném čase se věnuji
-                            lovu.
-                        </p>
-                        <p class="block">
-                            Píšu, protože bych Vám chtěl poděkovat za Vaši skvělou práci, odhodlanost a výdrž. Díky, že
-                            nám
-                            zachraňujete životy a že Vám na nás záleží.
-                            Pro alespoň drobné zlepšení nálady přikládám k dopisu obrázky od svých dětí a malinkou
-                            čokoládu.
-                        </p>
-                        <p class="block has-text-right">
-                            Srdečně zdraví,
-                            </br>
-                            F. P. Jednička
+                            Fyzicky jim pomůžeme, když zůstaneme doma a budeme si mýt ruce… ale proč bychom jim nemohli
+                            pomoci i
+                            psychicky? <strong>Napište jim dopisem vlídná slova podpory, díků a přibalte nějaké ty
+                                bonbóny a
+                                čokoládu.</strong> Určitě je to potěší a zvedne jim to náladu v těžké době.
                         </p>
                     </div>
-                </article>
-
-                <h3 class="title is-5">3. Přibalte nějakou drobnost</h3>
-                <p class="block">
-                    Přibalte do dopisu (nebo drobného balíčku) nějakou věc, která blbinku, která by je mohla potěšit.
-                    Obrázky od dětí, drobná čokoláda, balené bonbóny, vtipy, origami skládačky… co vás napadne.
-                </p>
-
-                <h3 class="title is-5">4. Pošlete to!</h3>
-                <p class="block">
-                    Dopis i drobnost dejte do obálky. Ty jdou koupit na poště, v papírnictvích (od 19.&nbsp;1. jsou
-                    otevřené), nebo klidně <a href="https://www.wikihow.cz/Jak-vyrobit-ob%C3%A1lku"
-                        target="_blank">vyrobit</a>.
-                </p>
-                <p class="block">
-                    Dopis můžete poslat na poště nebo vhozením do oranžové schránky. Do 50&nbsp;g stačí jedna známka,
-                    stojí 19&nbsp;Kč (známky lze zakoupit na poště nebo v trafikách)
-                </p>
-                <p class="block">
-                    Balík můžete poslat na poště, pokud ho odešlete jako „ekonomické psaní“ (a nebude tlustší jak
-                    2&nbsp;cm), bude to stát do kila 33&nbsp;Kč. Přesný ceník <a
-                        href="https://www.ceskaposta.cz/documents/10180/282441/kompletni_cenik.pdf/528acb00-cbab-450e-8a94-90add1cf405b"
-                        target="_blank">tady</a>.
-                </p>
-                <p class="block">
-                    Balík můžete také poslat přímo z domova pomocí služby odvoz zboží v Balíku online.
-                </p>
-                <p class="block">
-                    Pokud se rozhodnete poslat balík (krabička, cca 80&ndash;100 Kč), doporučujeme vše vyplnit raději <a
-                        href="https://www.postaonline.cz/odvozy/mojeodvozy" target="_blank">předem online</a>.
-                    <strong>Vyhnete se tak čekání na poště &ndash; obslouží vás rovnou.</strong>
-                </p>
+                </div>
             </div>
         </section>
 
-        <section class="section">
+        <section class="section is-size-5 mb-6">
             <div class="container">
+                <div class="columns is-centered">
+                    <div class="column is-half-fullhd">
+                        <h2 class="title">Jak na to?</h2>
+
+                        <div class="card block">
+                            <div class="card-header">
+                                <div class="card-header-title">
+                                    <h3 class="title is-5">1. Vyberte si nemocnici</h3>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p class="block">
+                                    Adresa nemocnice je veřejně přístupná. Vzali jsme adresy malých nemocnic z regionů s
+                                    velkým
+                                    počtem
+                                    nakaženým a připravili je pro vás. Vylosujte si v našem losovadle, které z nich
+                                    napíšete.
+                                </p>
+                                <button class="button block">
+                                    Vybrat náhodnou nemocnici
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="card block">
+                            <div class="card-header">
+                                <div class="card-header-title">
+                                    <h3 class="title is-5">2. Napište dopis</h3>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p class="block">
+                                    Stačí si vzít papír a nějaké pisadlo. Slušně pozdravte, představte se a napište proč
+                                    píšete.
+                                    Přesně jako v češtině. Třeba takto:
+                                </p>
+                                <article class="message is-info">
+                                    <div class="message-body">
+                                        <p class="block">
+                                            Vážení zdravotníci,
+                                        </p>
+                                        <p class="block">
+                                            jmenuji se Franta Pepa Jednička a jsem císař Rakouska-Uherska. Ve volném
+                                            čase se
+                                            věnuji
+                                            lovu.
+                                        </p>
+                                        <p class="block">
+                                            Píšu, protože bych Vám chtěl poděkovat za Vaši skvělou práci, odhodlanost a
+                                            výdrž.
+                                            Díky, že
+                                            nám
+                                            zachraňujete životy a že Vám na nás záleží.
+                                            Pro alespoň drobné zlepšení nálady přikládám k dopisu obrázky od svých dětí
+                                            a
+                                            malinkou
+                                            čokoládu.
+                                        </p>
+                                        <p class="block has-text-right">
+                                            Srdečně zdraví,
+                                            </br>
+                                            F. P. Jednička
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+
+                        <div class="card block">
+                            <div class="card-header">
+                                <div class="card-header-title">
+                                    <h3 class="title is-5">3. Přibalte nějakou drobnost</h3>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p class="block">
+                                    Přibalte do dopisu (nebo drobného balíčku) nějakou věc, která blbinku, která by je
+                                    mohla
+                                    potěšit. Obrázky od dětí, drobná čokoláda, balené bonbóny, vtipy, origami skládačky…
+                                    co
+                                    vás
+                                    napadne.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card block">
+                            <div class="card-header">
+                                <div class="card-header-title">
+                                    <h3 class="title is-5">4. Pošlete to!</h3>
+                                </div>
+                            </div>
+                            <div class="card-content content pt-2">
+                                <ul>
+                                    <li>
+                                        Dopis i drobnost dejte do obálky. Ty jdou koupit na poště, v papírnictvích (od
+                                        19.&nbsp;1.
+                                        jsou otevřené), nebo klidně <a
+                                            href="https://www.wikihow.cz/Jak-vyrobit-ob%C3%A1lku"
+                                            target="_blank">vyrobit</a>.
+                                    </li>
+                                    <li>
+                                        Dopis můžete poslat na poště nebo vhozením do oranžové schránky. Do 50&nbsp;g
+                                        stačí
+                                        jedna
+                                        známka, stojí 19&nbsp;Kč (známky lze zakoupit na poště nebo v trafikách)
+                                    </li>
+                                    <li>
+                                        Balík můžete poslat na poště, pokud ho odešlete jako „ekonomické psaní“ (a
+                                        nebude
+                                        tlustší
+                                        jak 2&nbsp;cm), bude to stát do kila 33&nbsp;Kč. Přesný ceník <a
+                                            href="https://www.ceskaposta.cz/documents/10180/282441/kompletni_cenik.pdf/528acb00-cbab-450e-8a94-90add1cf405b"
+                                            target="_blank">tady</a>.
+                                    </li>
+                                    <li>
+                                        Balík můžete také poslat přímo z domova pomocí služby odvoz zboží v Balíku
+                                        online.
+                                    </li>
+                                    <li>
+                                        Pokud se rozhodnete poslat balík (krabička, cca 80&ndash;100 Kč), doporučujeme
+                                        vše
+                                        vyplnit
+                                        raději <a href="https://www.postaonline.cz/odvozy/mojeodvozy"
+                                            target="_blank">předem
+                                            online</a>. <strong>Vyhnete se tak čekání na poště &ndash; obslouží vás
+                                            rovnou.</strong>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section has-background-info-light is-medium">
+            <div class="container has-text-centered">
                 <h2 class="title">Které nemocnici napsat?</h2>
 
-                <button class="button is-primary is-large">
+                <button class="button is-info is-large">
                     Vybrat náhodnou nemocnici
                 </button>
             </div>
         </section>
+
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>
+                    V případě jakýchkoliv problémů napište na rad.smid ZAVINÁČ gmail.com.
+                </p>
+                <p class="is-size-7">
+                    Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from
+                    <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+                </p>
+            </div>
+        </footer>
     </div>
 
     <script src="./main.js"></script>
