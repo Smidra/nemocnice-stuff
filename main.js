@@ -1,7 +1,8 @@
 const app = Vue.createApp({
     data() {
         return {
-            data: {},
+            hospitals: null,
+            picked: null,
         }
     },
     beforeMount() {
@@ -11,7 +12,18 @@ const app = Vue.createApp({
         async fetchData() {
             const res = await fetch('./nemocnice.json')
             const data = await res.json()
-            this.data = data
+            this.hospitals = data
+        },
+        pickHospital() {
+            const randomIndex = Math.floor(Math.random() * this.hospitals.length)
+            this.picked = this.hospitals[randomIndex]
+        },
+        reset() {
+            this.picked = null
+        },
+        scrollToPicker() {
+            const picker = document.getElementById('picker')
+            picker.scrollIntoView({ behavior: 'smooth' })
         }
     }
 })

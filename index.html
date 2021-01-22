@@ -75,7 +75,7 @@
                                     nakaženým a připravili je pro vás. Vylosujte si v našem losovadle, které z nich
                                     napíšete.
                                 </p>
-                                <button class="button block">
+                                <button class="button block" @click="scrollToPicker">
                                     Vybrat náhodnou nemocnici
                                 </button>
                             </div>
@@ -193,13 +193,52 @@
             </div>
         </section>
 
-        <section class="section has-background-info-light is-medium">
-            <div class="container has-text-centered">
-                <h2 class="title">Které nemocnici napsat?</h2>
-
-                <button class="button is-info is-large">
-                    Vybrat náhodnou nemocnici
-                </button>
+        <section class="section has-background-info-light is-medium" id="picker">
+            <div class="container">
+                <h2 class="title has-text-centered">Které nemocnici napsat?</h2>
+                <div class="columns is-centered">
+                    <div v-if="picked" class="column column is-three-quarters-fullhd">
+                        <article class="message is-warning is-medium">
+                            <div class="message-header">
+                                <p>
+                                    {{ picked.name }}
+                                    <span class="tag is-warning is-light is-medium">
+                                        {{ picked.region }}
+                                    </span>
+                                </p>
+                                <button class="delete is-large" aria-label="delete" @click="reset"></button>
+                            </div>
+                            <div class="message-body columns">
+                                <div class="column" v-if="picked.people">
+                                    <h3 class="title is-5">Lidé</h3>
+                                    <div v-for="person in picked.people" class="block">
+                                        <h4 class="title is-5">{{ person.name }}</h4>
+                                        <p class="subtitle" v-if="person.occupation === 'main_sister'">Vrchní sestra</p>
+                                        <p class="subtitle" v-if="person.occupation === 'main_doctor'">Primář</p>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <h3 class="title is-5">Adresa</h3>
+                                    <address>
+                                        {{ picked.name}}<br>
+                                        {{ picked.adresa.street}} {{ picked.adresa.number }}<br>
+                                        {{ picked.adresa.postcode}} {{ picked.adresa.city }}
+                                    </address>
+                                </div>
+                                <div class="column">
+                                    <h3 class="title is-5">Více info</h3>
+                                    <p class="block">{{ picked.note }}</p>
+                                    <a :href="picked.web" class="button" target="_blank">Web</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div v-else class="column has-text-centered">
+                        <button class="button is-info is-large" @click="pickHospital">
+                            Vybrat náhodnou nemocnici
+                        </button>
+                    </div>
+                </div>
             </div>
         </section>
 
