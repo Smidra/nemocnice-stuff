@@ -1,27 +1,5 @@
 [
   {
-    "name": "jméno_nemocnice",
-    "web": "web_nemocnice",
-    "region": "Královehradecký",
-    "note": "",
-    "adresa": {
-      "street": "ulice",
-      "number": "999",
-      "postcode": 99999,
-      "city": "mesto"
-    },
-    "people": [
-      {
-        "name": "",
-        "occupation": "main_sister"
-      },
-      {
-        "name": "",
-        "occupation": "main_doctor"
-      }
-    ]
-  },
-  {
     "name": "Domažlická nemocnice, a.s.",
     "web": "https://domazlice.nemocnicepk.cz/aro-jip/",
     "region": "Plzeňský",
@@ -55,14 +33,6 @@
       "city": "Cheb"
     },
     "people": [
-      {
-        "name": "",
-        "occupation": "main_sister"
-      },
-      {
-        "name": "",
-        "occupation": "main_doctor"
-      }
     ]
   },
   {
@@ -197,28 +167,6 @@
       },
       {
         "name": "MUDr. Marcel Maršík",
-        "occupation": "main_doctor"
-      }
-    ]
-  },
-  {
-    "name": "jméno_nemocnice",
-    "web": "web_nemocnice",
-    "region": "Královehradecký",
-    "note": "",
-    "adresa": {
-      "street": "ulice",
-      "number": "999",
-      "postcode": 99999,
-      "city": "mesto"
-    },
-    "people": [
-      {
-        "name": "",
-        "occupation": "main_sister"
-      },
-      {
-        "name": "",
         "occupation": "main_doctor"
       }
     ]
