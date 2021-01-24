@@ -172,25 +172,47 @@
     ]
   },
   {
-  "name": "Klatovská nemocnice, a. s.",
-  "web": "https://klatovy.nemocnicepk.cz/anesteziologicko-resuscitacni-odd-aro-/",
-  "region": "Plzeňský",
-  "note": "Všechen personál na webu.",
-  "adresa": {
-    "street": "Plzeňská",
-    "number": "929",
-    "postcode": 33901,
-    "city": "Klatovy"
-  },
-  "people": [
-    {
-      "name": "Marie Šafrová",
-      "occupation": "main_sister"
+    "name": "Klatovská nemocnice, a. s.",
+    "web": "https://klatovy.nemocnicepk.cz/anesteziologicko-resuscitacni-odd-aro-/",
+    "region": "Plzeňský",
+    "note": "Všechen personál na webu.",
+    "adresa": {
+      "street": "Plzeňská",
+      "number": "929",
+      "postcode": 33901,
+      "city": "Klatovy"
     },
-    {
-      "name": "MUDr. Miriam Gredová",
-      "occupation": "main_doctor"
-    }
-  ]
-}
+    "people": [
+      {
+        "name": "Marie Šafrová",
+        "occupation": "main_sister"
+      },
+      {
+        "name": "MUDr. Miriam Gredová",
+        "occupation": "main_doctor"
+      }
+    ]
+  },
+  {
+    "name": "Rokycanská nemocnice, a. s.",
+    "web": "https://rokycany.nemocnicepk.cz/anesteziologicko-resuscitacni-odd-aro/",
+    "region": "Plzeňský",
+    "note": "Všechen personál na webu.",
+    "adresa": {
+      "street": "Voldušská",
+      "number": "750",
+      "postcode": 33701,
+      "city": "Rokycany"
+    },
+    "people": [
+      {
+        "name": "MUDr. Josef Perk",
+        "occupation": "main_sister"
+      },
+      {
+        "name": "Hana Půhoná",
+        "occupation": "main_doctor"
+      }
+    ]
+  }
 ]
