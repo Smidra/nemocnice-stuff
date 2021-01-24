@@ -360,5 +360,27 @@
         "occupation": "main_doctor"
       }
     ]
+  },
+  {
+    "name": "Oblastní nemocnice Příbram, a.s.",
+    "web": "https://www.nemocnicepribram.cz/oddeleni/aro",
+    "region": "Středočeský",
+    "note": "",
+    "adresa": {
+      "street": "Gen. R. Tesaříka",
+      "number": "80",
+      "postcode": 26101,
+      "city": "Příbram I."
+    },
+    "people": [
+      {
+        "name": "Bc. Soňa Kovaříková",
+        "occupation": "main_sister"
+      },
+      {
+        "name": "MUDr. Petr Bilina",
+        "occupation": "main_doctor"
+      }
+    ]
   }
 ]
