@@ -232,5 +232,27 @@
         "occupation": "main_doctor"
       }
     ]
+  },
+  {
+    "name": "Nemocnice Šumperk",
+    "web": "https://www.nemocnicesumperk.cz/oddeleni/arip",
+    "region": "Olomoucký",
+    "note": "",
+    "adresa": {
+      "street": "Nerudova",
+      "number": "640/41",
+      "postcode": 78701,
+      "city": "Šumperk"
+    },
+    "people": [
+      {
+        "name": "Karla Nikodémová",
+        "occupation": "main_sister"
+      },
+      {
+        "name": "MUDr. Marián Olejník, MBA",
+        "occupation": "main_doctor"
+      }
+    ]
   }
 ]
