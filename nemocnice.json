@@ -214,5 +214,23 @@
         "occupation": "main_doctor"
       }
     ]
+  },
+  {
+    "name": "Nemocnice AGEL Jeseník a.s.",
+    "web": "https://nemocnicejesenik.agel.cz/pracoviste/oddeleni/aro.html",
+    "region": "Olomoucký",
+    "note": "",
+    "adresa": {
+      "street": "Lipovská",
+      "number": "103/39",
+      "postcode": 79001,
+      "city": "Jeseník"
+    },
+    "people": [
+      {
+        "name": "MUDr. Petr Kudrna",
+        "occupation": "main_doctor"
+      }
+    ]
   }
 ]
