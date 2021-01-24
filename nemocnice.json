@@ -276,5 +276,27 @@
         "occupation": "main_doctor"
       }
     ]
+  },
+  {
+    "name": "Nemocnice AGEL Přerov",
+    "web": "https://nemocniceprerov.agel.cz/pracoviste/oddeleni/aro.html",
+    "region": "Olomoucký",
+    "note": "",
+    "adresa": {
+      "street": "Dvořákova",
+      "number": "75",
+      "postcode": 75152,
+      "city": "Přerov"
+    },
+    "people": [
+      {
+        "name": "Ing. Bc. Andrea Czvalingová",
+        "occupation": "main_sister"
+      },
+      {
+        "name": "MUDr. Petr Dušek",
+        "occupation": "main_doctor"
+      }
+    ]
   }
 ]
