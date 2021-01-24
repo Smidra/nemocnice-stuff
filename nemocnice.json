@@ -170,5 +170,27 @@
         "occupation": "main_doctor"
       }
     ]
-  }
+  },
+  {
+  "name": "Klatovská nemocnice, a. s.",
+  "web": "https://klatovy.nemocnicepk.cz/anesteziologicko-resuscitacni-odd-aro-/",
+  "region": "Plzeňský",
+  "note": "Všechen personál na webu.",
+  "adresa": {
+    "street": "Plzeňská",
+    "number": "929",
+    "postcode": 33901,
+    "city": "Klatovy"
+  },
+  "people": [
+    {
+      "name": "Marie Šafrová",
+      "occupation": "main_sister"
+    },
+    {
+      "name": "MUDr. Miriam Gredová",
+      "occupation": "main_doctor"
+    }
+  ]
+}
 ]
