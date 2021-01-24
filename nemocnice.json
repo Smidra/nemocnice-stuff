@@ -298,5 +298,27 @@
         "occupation": "main_doctor"
       }
     ]
-  }
+  },
+  {
+  "name": "NEMOCNICE Hranice a.s. ",
+  "web": "https://www.nemocnice-hranice.cz/nase-obory/139",
+  "region": "Olomoucký",
+  "note": "",
+  "adresa": {
+    "street": "Zborovská",
+    "number": "1245",
+    "postcode": 75322,
+    "city": "Hranice"
+  },
+  "people": [
+    {
+      "name": "Bc. Andrea Doležalová",
+      "occupation": "main_sister"
+    },
+    {
+      "name": "MUDr. Petr Tomančák",
+      "occupation": "main_doctor"
+    }
+  ]
+}
 ]
