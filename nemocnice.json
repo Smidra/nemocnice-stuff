@@ -254,5 +254,27 @@
         "occupation": "main_doctor"
       }
     ]
+  },
+  {
+    "name": "Nemocnice AGEL Prostějov",
+    "web": "https://nemocniceprostejov.agel.cz/pracoviste/oddeleni/aro.html",
+    "region": "Olomoucký",
+    "note": "",
+    "adresa": {
+      "street": "Mathonova",
+      "number": "291/1",
+      "postcode": 79604,
+      "city": "Prostějov"
+    },
+    "people": [
+      {
+        "name": "Iva Burgetová",
+        "occupation": "main_sister"
+      },
+      {
+        "name": "MUDr. Martin Pomajbík, MBA",
+        "occupation": "main_doctor"
+      }
+    ]
   }
 ]
