@@ -338,5 +338,27 @@
         "occupation": "main_doctor"
       }
     ]
+  },
+  {
+    "name": "Nemocnice Rudolfa a Stefanie Benešov, a. s.",
+    "web": "https://www.hospital-bn.cz/oddeleni/aro/",
+    "region": "Středočeský",
+    "note": "",
+    "adresa": {
+      "street": "Máchova",
+      "number": "400",
+      "postcode": 25601,
+      "city": "Benešov"
+    },
+    "people": [
+      {
+        "name": "Mgr. Karin Kápičková",
+        "occupation": "main_sister"
+      },
+      {
+        "name": "MUDr. Jana Pěkná",
+        "occupation": "main_doctor"
+      }
+    ]
   }
 ]
