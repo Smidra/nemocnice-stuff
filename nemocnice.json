@@ -300,25 +300,43 @@
     ]
   },
   {
-  "name": "NEMOCNICE Hranice a.s. ",
-  "web": "https://www.nemocnice-hranice.cz/nase-obory/139",
-  "region": "Olomoucký",
-  "note": "",
-  "adresa": {
-    "street": "Zborovská",
-    "number": "1245",
-    "postcode": 75322,
-    "city": "Hranice"
-  },
-  "people": [
-    {
-      "name": "Bc. Andrea Doležalová",
-      "occupation": "main_sister"
+    "name": "NEMOCNICE Hranice a.s. ",
+    "web": "https://www.nemocnice-hranice.cz/nase-obory/139",
+    "region": "Olomoucký",
+    "note": "",
+    "adresa": {
+      "street": "Zborovská",
+      "number": "1245",
+      "postcode": 75322,
+      "city": "Hranice"
     },
-    {
-      "name": "MUDr. Petr Tomančák",
-      "occupation": "main_doctor"
-    }
-  ]
-}
+    "people": [
+      {
+        "name": "Bc. Andrea Doležalová",
+        "occupation": "main_sister"
+      },
+      {
+        "name": "MUDr. Petr Tomančák",
+        "occupation": "main_doctor"
+      }
+    ]
+  },
+  {
+    "name": "Nemocnice Kutná Hora",
+    "web": "https://www.nemocnicekutnahora.cz/aro-mojip/os-1004/p1=1036",
+    "region": "Středočeský",
+    "note": "",
+    "adresa": {
+      "street": "Vojtěšská",
+      "number": "237/26",
+      "postcode": 28401,
+      "city": "Kutná Hora 1"
+    },
+    "people": [
+      {
+        "name": "MUDr. Pavol Dovjak",
+        "occupation": "main_doctor"
+      }
+    ]
+  }
 ]
