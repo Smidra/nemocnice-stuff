@@ -382,5 +382,71 @@
         "occupation": "main_doctor"
       }
     ]
-  }
+  },
+  {
+    "name": "Nemocnice s poliklinikou Česká Lípa",
+    "web": "https://www.nemcl.cz/oddeleni-a-ambulance/anesteziologicko-resuscitacni-oddeleni-diop",
+    "region": "Liberecký",
+    "note": "",
+    "adresa": {
+      "street": "Purkyňova",
+      "number": "1849",
+      "postcode": 47001,
+      "city": "Česká Lípa"
+    },
+    "people": [
+      {
+        "name": "Jiřina Škrletová",
+        "occupation": "main_sister"
+      },
+      {
+        "name": "MUDr. Lubor Picmaus",
+        "occupation": "main_doctor"
+      }
+    ]
+  },
+  {
+    "name": "Nemocnice Jablonec nad Nisou",
+    "web": "https://www.nemjbc.cz/cs/oddeleni/aro/",
+    "region": "Liberecký",
+    "note": "",
+    "adresa": {
+      "street": "Nemocniční",
+      "number": "4446/15",
+      "postcode": 46601,
+      "city": "Jablonec nad Nisou"
+    },
+    "people": [
+      {
+        "name": "Bc. Irena Matýsková",
+        "occupation": "main_sister"
+      },
+      {
+        "name": "MUDr. Martin Bartoň",
+        "occupation": "main_doctor"
+      }
+    ]
+  },
+  {
+  "name": "Krajská nemocnice Liberec - Nemocnice Turnov",
+  "web": "https://www.nemlib.cz/anesteziologicko-resuscitacni-aro-turnov/",
+  "region": "Liberecký",
+  "note": "",
+  "adresa": {
+    "street": "28. října",
+    "number": "1000",
+    "postcode": 51101,
+    "city": "Turnov"
+  },
+  "people": [
+    {
+      "name": "Milada Nováková",
+      "occupation": "main_sister"
+    },
+    {
+      "name": "MUDr. Jiří Patka",
+      "occupation": "main_doctor"
+    }
+  ]
+}
 ]
